@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Be+Vietnam&display:400,500,700=swap');
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam:400,500,700&display=swap');
 
 
 $brightRed: hsl(12, 88%, 59%);
@@ -12,4 +12,103 @@ $veryLightGray: hsl(0, 0%, 98%);
 body {
     font-family: 'Be Vietnam', sans-serif;
     font-size: 16px;
+    width: 100%;
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: right -175px top -175px;
+    background-size: auto;
+}
+
+header {
+    
+    img {
+        margin-left: 10rem;
+        margin-top: 4rem;
+    }
+    .hamburger {
+        float: right;
+        margin-right: 5%;
+        display: none;
+    }
+    nav {
+        margin-left: 30%;
+        margin-top: -2.25rem;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: $darkBlue;
+        font-size: .8rem;
+        padding-right: 1.75rem;
+    }
+    nav a:hover {
+        color: $darkGrayishBlue;
+    }
+    .get-started {
+        float: right;
+        margin-right: 10.5rem;
+        width: 140px;
+        border-radius: 25px;
+        height: 40px;
+        border: none;
+        color: white;
+        background-color: $brightRed;
+        margin-top: -2rem;
+        font-size: .8rem;
+        box-shadow: 0px 8px 8px -4px  $brightRed;
+    }
+   .get-started:hover {
+        cursor: pointer;
+        opacity: .75;
+    } 
+}
+
+.intro {
+    
+    height: 700px;
+    
+    .illustration-intro {
+        float: right;
+        border: 1px solid red;
+        margin-top: -27rem;
+        margin-right: 11%;
+         height: 500px;
+    }
+    .intro-word-box {
+        margin-top: 9rem;
+        margin-left: 11%;
+        border: 1px solid red;
+        width: 35%;
+        h1 {
+            font-size: 3.5rem;
+            color: $darkBlue;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            line-height: 1.1;
+        }
+        p {
+            color: $darkGrayishBlue;
+            width: 69%;
+            line-height: 1.6;
+            margin-bottom: 2.75rem;
+        }
+        .get-started {
+            width: 140px;
+            border-radius: 25px;
+            height: 40px;
+            border: none;
+            color: white;
+            background-color: $brightRed;
+            margin-top: -2rem;
+            font-size: .8rem;
+            box-shadow: 0px 8px 8px -4px  $brightRed;
+        }
+        .get-started:hover {
+            cursor: pointer;
+            opacity: .75;
+        } 
+    }
+    
+    
+    
 }

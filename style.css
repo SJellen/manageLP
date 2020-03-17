@@ -1,6 +1,110 @@
-@import url("https://fonts.googleapis.com/css?family=Be+Vietnam&display:400,500,700=swap");
+@import url("https://fonts.googleapis.com/css?family=Be+Vietnam:400,500,700&display=swap");
 body {
   font-family: 'Be Vietnam', sans-serif;
   font-size: 16px;
+  width: 100%;
+  background-image: url(./images/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-position: right -175px top -175px;
+  background-size: auto;
+}
+
+header img {
+  margin-left: 10rem;
+  margin-top: 4rem;
+}
+
+header .hamburger {
+  float: right;
+  margin-right: 5%;
+  display: none;
+}
+
+header nav {
+  margin-left: 30%;
+  margin-top: -2.25rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #242d52;
+  font-size: .8rem;
+  padding-right: 1.75rem;
+}
+
+header nav a:hover {
+  color: #9095a7;
+}
+
+header .get-started {
+  float: right;
+  margin-right: 10.5rem;
+  width: 140px;
+  border-radius: 25px;
+  height: 40px;
+  border: none;
+  color: white;
+  background-color: #f25f3a;
+  margin-top: -2rem;
+  font-size: .8rem;
+  -webkit-box-shadow: 0px 8px 8px -4px #f25f3a;
+          box-shadow: 0px 8px 8px -4px #f25f3a;
+}
+
+header .get-started:hover {
+  cursor: pointer;
+  opacity: .75;
+}
+
+.intro {
+  height: 700px;
+}
+
+.intro .illustration-intro {
+  float: right;
+  border: 1px solid red;
+  margin-top: -27rem;
+  margin-right: 11%;
+  height: 500px;
+}
+
+.intro .intro-word-box {
+  margin-top: 9rem;
+  margin-left: 11%;
+  border: 1px solid red;
+  width: 35%;
+}
+
+.intro .intro-word-box h1 {
+  font-size: 3.5rem;
+  color: #242d52;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  line-height: 1.1;
+}
+
+.intro .intro-word-box p {
+  color: #9095a7;
+  width: 69%;
+  line-height: 1.6;
+  margin-bottom: 2.75rem;
+}
+
+.intro .intro-word-box .get-started {
+  width: 140px;
+  border-radius: 25px;
+  height: 40px;
+  border: none;
+  color: white;
+  background-color: #f25f3a;
+  margin-top: -2rem;
+  font-size: .8rem;
+  -webkit-box-shadow: 0px 8px 8px -4px #f25f3a;
+          box-shadow: 0px 8px 8px -4px #f25f3a;
+}
+
+.intro .intro-word-box .get-started:hover {
+  cursor: pointer;
+  opacity: .75;
 }
 /*# sourceMappingURL=style.css.map */
