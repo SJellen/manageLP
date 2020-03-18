@@ -292,7 +292,7 @@ footer img.logo {
 
 footer form {
   float: right;
-  margin-top: -5rem;
+  margin-top: -7rem;
   margin-right: 5rem;
   width: 300px;
   display: -webkit-box;
@@ -352,7 +352,11 @@ footer .link-list1 {
   display: block;
   margin-left: 30%;
   color: white;
-  margin-top: -8rem;
+  margin-top: -8.5rem;
+}
+
+footer li {
+  padding-bottom: 10px;
 }
 
 footer .link-list2 {
@@ -361,7 +365,7 @@ footer .link-list2 {
   display: block;
   margin-left: 50%;
   color: white;
-  margin-top: -7rem;
+  margin-top: -9.5rem;
 }
 
 footer li:hover {
@@ -370,6 +374,7 @@ footer li:hover {
 }
 
 footer h4 {
+  margin-top: -2rem;
   float: right;
   margin-right: 8%;
   font-size: .9rem;

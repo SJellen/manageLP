@@ -281,7 +281,7 @@ footer {
     }
     form {
        float: right;
-       margin-top: -5rem;
+       margin-top: -7rem;
        margin-right: 5rem;
        width: 300px;
        display: flex;
@@ -317,13 +317,15 @@ footer {
        }
     }
     .link-list1 {
-        
         list-style: none;
         width: 5%;
         display: block;
         margin-left: 30%;
         color: white;
-        margin-top: -8rem;
+        margin-top: -8.5rem;
+    }
+    li {
+        padding-bottom: 10px;
     }
     
     
@@ -333,7 +335,7 @@ footer {
         display: block;
         margin-left: 50%;
         color: white;
-        margin-top: -7rem;
+        margin-top: -9.5rem;
     }
     li:hover {
         color: $brightRed;
@@ -341,6 +343,7 @@ footer {
     }
 
     h4 {
+        margin-top: -2rem;
         float: right;
         margin-right: 8%;
         font-size: .9rem;
