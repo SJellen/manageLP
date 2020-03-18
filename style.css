@@ -57,12 +57,11 @@ header .get-started:hover {
 }
 
 .intro {
-  height: 700px;
+  height: 600px;
 }
 
 .intro .illustration-intro {
   float: right;
-  border: 1px solid red;
   margin-top: -27rem;
   margin-right: 11%;
   height: 500px;
@@ -71,7 +70,6 @@ header .get-started:hover {
 .intro .intro-word-box {
   margin-top: 9rem;
   margin-left: 11%;
-  border: 1px solid red;
   width: 35%;
 }
 
@@ -106,5 +104,68 @@ header .get-started:hover {
 .intro .intro-word-box .get-started:hover {
   cursor: pointer;
   opacity: .75;
+}
+
+.midsection {
+  background-image: url(./images/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-position: left -400px bottom -200px;
+  background-size: auto;
+  height: 1000px;
+}
+
+.midsection .midsection-word-box {
+  width: 33%;
+  margin-left: 11%;
+}
+
+.midsection .midsection-word-box h2 {
+  font-size: 2.5rem;
+  color: #242d52;
+}
+
+.midsection .midsection-word-box p {
+  width: 75%;
+  color: #9095a7;
+}
+
+.midsection .midsection-number-box {
+  width: 40%;
+  float: right;
+  margin-top: -18rem;
+  margin-right: 8%;
+}
+
+.midsection .midsection-number-box h2 {
+  background-color: #f25f3a;
+  width: 35px;
+  color: #fafafa;
+  padding: 2px 10px 6px 20px;
+  border-radius: 25px;
+  font-size: 1.25rem;
+}
+
+.midsection .midsection-number-box h4 {
+  width: 300px;
+  margin-left: 7rem;
+  margin-top: -3rem;
+  color: #242d52;
+}
+
+.midsection .midsection-number-box p {
+  width: 77%;
+  margin-left: 7rem;
+  color: #9095a7;
+}
+
+.midsection .midsection-number-box .number-box {
+  margin-bottom: 4rem;
+}
+
+.testimonial h2 {
+  font-size: 2.5rem;
+  margin-top: -18rem;
+  text-align: center;
+  color: #242d52;
 }
 /*# sourceMappingURL=style.css.map */
