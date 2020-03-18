@@ -25,8 +25,8 @@ const messageEle = document.querySelector('.message');
 const button = document.querySelector('.submit');
 
 
-const addEmail = "Please enter an email address";
-const fixEmail = "Please provide a valid email address";
+const addEmail = "Please insert a valid email";
+const fixEmail = "Please insert a valid email";
 const thanksEmail = "Thanks for your interest"
 
 button.addEventListener('click', validateEntry);
@@ -53,7 +53,7 @@ function validateEntry(e) {
       messageEle.className = " message errorMessage";
       messageEle.innerText = message;
       document.querySelector(".email").style.borderColor = "#f96262";
-      document.querySelector(".email").style.borderWidth = "2px";
+      document.querySelector(".email").style.borderWidth = "1px";
   event.preventDefault();
   
    }

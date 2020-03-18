@@ -273,5 +273,116 @@ header {
 
 footer {
     background-color: $veryDarkBlue;
+    height: 250px;
+    img.logo {
+        margin-left: 11%;
+        margin-top: 4rem;
+        
+    }
+    form {
+       float: right;
+       margin-top: -5rem;
+       margin-right: 5rem;
+       width: 300px;
+       display: flex;
+       p {
+           color: red;
+           font-size: .75rem;
+           margin-left: 1rem;
+           margin-top: 0rem;
+           font-style: italic;
+       }
+       input {
+           width: 200px;
+           height: 40px;
+           border-radius: 25px;
+           border: .5px solid $veryDarkBlue;
+           margin-right: 1rem;
+       }
+       input::placeholder {
+           padding-left: 1rem;
+           
+       }
+       .submit {
+           color: white;
+           background-color: $brightRed;
+           border: none;
+           width: 70px;
+           height: 40px;
+           border-radius: 25px;
+       }
+       .submit:hover {
+           background-color: hsl(12, 84%, 66%);
+           cursor: pointer;
+       }
+    }
+    .link-list1 {
+        
+        list-style: none;
+        width: 5%;
+        display: block;
+        margin-left: 30%;
+        color: white;
+        margin-top: -8rem;
+    }
+    
+    
+    .link-list2 {
+        list-style: none;
+        width: 10%;
+        display: block;
+        margin-left: 50%;
+        color: white;
+        margin-top: -7rem;
+    }
+    li:hover {
+        color: $brightRed;
+        cursor: pointer;
+    }
+
+    h4 {
+        float: right;
+        margin-right: 8%;
+        font-size: .9rem;
+        color: $darkGrayishBlue;
+        font-weight: 100;
+    }
+    .social {
+        margin-top: 5rem;
+        margin-left: 11%;
+    }
+    .social img {
+        padding-right: 10px;
+    }
+    .social img:hover {
+        filter: invert(45%) sepia(92%) saturate(1295%) hue-rotate(335deg) brightness(94%) contrast(101%);
+        cursor: pointer;
+    }
+
+}
+
+.attribution {
+    font-size: .75rem;
+    float: right;
+    margin-right: 5%;
+    margin-top: -2rem;
+    color: $darkGrayishBlue;
+    a {
+        color: $darkGrayishBlue;
+        text-decoration: none;
+    }
+    opacity: 1;
+    animation-name: attrib;
+    animation-duration: 1000ms;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    @keyframes attrib {
+        0% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
 }
 

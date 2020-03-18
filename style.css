@@ -282,5 +282,153 @@ header .get-started:hover {
 
 footer {
   background-color: #1d1e25;
+  height: 250px;
+}
+
+footer img.logo {
+  margin-left: 11%;
+  margin-top: 4rem;
+}
+
+footer form {
+  float: right;
+  margin-top: -5rem;
+  margin-right: 5rem;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer form p {
+  color: red;
+  font-size: .75rem;
+  margin-left: 1rem;
+  margin-top: 0rem;
+  font-style: italic;
+}
+
+footer form input {
+  width: 200px;
+  height: 40px;
+  border-radius: 25px;
+  border: 0.5px solid #1d1e25;
+  margin-right: 1rem;
+}
+
+footer form input::-webkit-input-placeholder {
+  padding-left: 1rem;
+}
+
+footer form input:-ms-input-placeholder {
+  padding-left: 1rem;
+}
+
+footer form input::-ms-input-placeholder {
+  padding-left: 1rem;
+}
+
+footer form input::placeholder {
+  padding-left: 1rem;
+}
+
+footer form .submit {
+  color: white;
+  background-color: #f25f3a;
+  border: none;
+  width: 70px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+footer form .submit:hover {
+  background-color: #f17d5f;
+  cursor: pointer;
+}
+
+footer .link-list1 {
+  list-style: none;
+  width: 5%;
+  display: block;
+  margin-left: 30%;
+  color: white;
+  margin-top: -8rem;
+}
+
+footer .link-list2 {
+  list-style: none;
+  width: 10%;
+  display: block;
+  margin-left: 50%;
+  color: white;
+  margin-top: -7rem;
+}
+
+footer li:hover {
+  color: #f25f3a;
+  cursor: pointer;
+}
+
+footer h4 {
+  float: right;
+  margin-right: 8%;
+  font-size: .9rem;
+  color: #9095a7;
+  font-weight: 100;
+}
+
+footer .social {
+  margin-top: 5rem;
+  margin-left: 11%;
+}
+
+footer .social img {
+  padding-right: 10px;
+}
+
+footer .social img:hover {
+  -webkit-filter: invert(45%) sepia(92%) saturate(1295%) hue-rotate(335deg) brightness(94%) contrast(101%);
+          filter: invert(45%) sepia(92%) saturate(1295%) hue-rotate(335deg) brightness(94%) contrast(101%);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: .75rem;
+  float: right;
+  margin-right: 5%;
+  margin-top: -2rem;
+  color: #9095a7;
+  opacity: 1;
+  -webkit-animation-name: attrib;
+          animation-name: attrib;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.attribution a {
+  color: #9095a7;
+  text-decoration: none;
+}
+
+@-webkit-keyframes attrib {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes attrib {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
