@@ -12,15 +12,17 @@ $veryLightGray: hsl(0, 0%, 98%);
 body {
     font-family: 'Be Vietnam', sans-serif;
     font-size: 16px;
-    width: 100%;
+    max-width: 100%;
     background-image: url(./images/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
     background-position: right -175px top -175px;
     background-size: auto;
+    padding: 0;
+    margin: 0 auto;
 }
 
 header {
-    
+    width: 100%;
     img {
         margin-left: 10rem;
         margin-top: 4rem;
@@ -64,7 +66,7 @@ header {
 }
 
 .intro {
-    
+    width: 100%;
     height: 600px;
     
     .illustration-intro {
@@ -112,6 +114,7 @@ header {
 }
 
 .midsection {
+    width: 100%;
     background-image: url(./images/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
     background-position: left -400px bottom -200px ;
@@ -156,15 +159,119 @@ header {
         .number-box {
             margin-bottom: 4rem
         }
+        
     }
 
 }
-.testimonial {
-   
+
+.what-they-said {
     h2 {
         font-size: 2.5rem;
         margin-top: -18rem;
         text-align: center;
         color: $darkBlue;
+        margin-bottom: 5rem
     }
 }
+
+
+.testimonial {
+    overflow: scroll;
+    width: 100%;
+
+   
+    .testimonial-slider {
+        height: 350px;
+        width: 150%;
+        display: flex;
+        
+        
+        
+        .test-box {
+            margin-top: 5rem;
+            width: 535px;
+            background-color: $veryLightGray;
+            height: 220px;
+            margin-right: 30px;
+            img {
+                width: 75px;
+                margin-left: 43%;
+                margin-top: -2.5rem
+            }
+            h4 {
+                text-align: center;
+            }
+            p {
+                color: $darkGrayishBlue;
+                width: 90%;
+                text-align: center;
+                margin-left: 1rem;
+            }
+        }
+    }
+
+}
+
+.testimonial::-webkit-scrollbar {
+    display: none;
+}
+
+.button-box {
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    .get-started {
+        margin-left: 45%;
+        width: 140px;
+        border-radius: 25px;
+        height: 40px;
+        border: none;
+        color: white;
+        background-color: $brightRed;
+        margin-top: -2rem;
+        font-size: .8rem;
+        box-shadow: 0px 8px 8px -4px  $brightRed;
+    }
+   .get-started:hover {
+        cursor: pointer;
+        opacity: .75;
+    } 
+   
+}
+
+.bottom {
+    background: url(./images/bg-simplify-section-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: left 250px bottom 0px;
+    width: 100%;
+    background-color: $brightRed;
+    color: white;
+    height: 215px;
+    h2 {
+        margin-left: 11%;
+        font-size: 2.5rem;
+        width: 35%;
+        padding-top: 2rem;
+    }
+    .get-started {
+        background-color: $veryLightGray;
+        width: 140px;
+        border-radius: 25px;
+        height: 40px;
+        border: none;
+        color: $brightRed;
+        font-size: .8rem; 
+        float: right;
+        margin-right: 11%;
+        margin-top: -6rem;
+    }
+    .get-started:hover {
+        cursor: pointer;
+        opacity: .9;
+        background-color: $veryLightGray;
+    } 
+}
+
+footer {
+    background-color: $veryDarkBlue;
+}
+
