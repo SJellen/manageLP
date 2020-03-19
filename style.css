@@ -666,4 +666,24 @@ footer .social img:hover {
     margin-left: 35%;
   }
 }
+
+@media only screen and (max-width: 475px) {
+  header {
+    margin-top: -2rem;
+  }
+  .intro img.illustration-intro {
+    margin-top: -43rem;
+  }
+  .intro .intro-word-box {
+    margin-top: 25rem;
+  }
+  .intro .intro-word-box h1 {
+    font-size: 2.5rem;
+  }
+  .intro .intro-word-box p {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
