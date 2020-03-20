@@ -190,6 +190,7 @@ header .get-started:hover {
   display: -ms-flexbox;
   display: flex;
   padding-left: 20px;
+  margin: 0 auto;
 }
 
 .testimonial .testimonial-slider .test-box {
@@ -243,6 +244,10 @@ header .get-started:hover {
 .button-box .get-started:hover {
   cursor: pointer;
   opacity: .75;
+}
+
+.circle-box {
+  display: none;
 }
 
 .bottom {
@@ -672,18 +677,116 @@ footer .social img:hover {
     margin-top: -2rem;
   }
   .intro img.illustration-intro {
-    margin-top: -43rem;
+    margin-top: -50rem;
   }
   .intro .intro-word-box {
+    margin-left: 2%;
     margin-top: 25rem;
+    width: 100%;
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: right -225px top 50px;
+    background-size: 96%;
+    padding-bottom: 150px;
   }
   .intro .intro-word-box h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
   .intro .intro-word-box p {
     width: 90%;
     margin: 0 auto;
     margin-bottom: 2rem;
+  }
+  .midsection {
+    margin-top: -13rem;
+    width: 100%;
+  }
+  .midsection .midsection-word-box {
+    z-index: 5;
+    position: relative;
+  }
+  .midsection .midsection-word-box h2 {
+    font-size: 1.75rem;
+  }
+  .midsection .midsection-word-box p {
+    width: 100%;
+    margin-left: 5%;
+    font-size: .9rem;
+    margin-left: 2%;
+  }
+  .midsection .midsection-number-box p {
+    font-size: .8rem;
+    line-height: 1.5;
+    width: 100%;
+    margin-left: 5%;
+  }
+  .what-they-said h2 {
+    font-size: 2rem;
+  }
+  .testimonial {
+    scrollbar-width: none;
+  }
+  .testimonial .testimonial-slider {
+    width: 100%;
+    overflow: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .testimonial .testimonial-slider .test-box {
+    min-width: 100%;
+  }
+  .testimonial .testimonial-slider::-webkit-scrollbar {
+    display: none;
+  }
+  .circle-box {
+    display: inline-block;
+    width: 100px;
+    height: 15px;
+    margin-left: 40%;
+    margin-bottom: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .circle-box .dot {
+    width: 6px;
+    height: 6px;
+    margin: 0 2px;
+    border-radius: 50%;
+    border: 1px solid #f25f3a;
+  }
+  .circle-box .dot:hover {
+    background-color: #f25f3a;
+  }
+  .circle-box .dot:active {
+    background-color: #f25f3a;
+  }
+  .bottom {
+    width: 100%;
+    margin-top: -6rem;
+  }
+  .bottom h2 {
+    text-align: center;
+    width: 90%;
+  }
+  .bottom .get-started {
+    margin-right: 32%;
+    margin-top: 2rem;
+  }
+  footer {
+    width: 100%;
+  }
+  footer form {
+    margin-right: 2%;
+  }
+  footer form input.email {
+    padding-left: 1rem;
+  }
+  footer form .get-started {
+    margin-right: 10%;
   }
 }
 /*# sourceMappingURL=style.css.map */
