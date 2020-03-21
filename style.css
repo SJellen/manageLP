@@ -673,8 +673,15 @@ footer .social img:hover {
 }
 
 @media only screen and (max-width: 475px) {
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   header {
     margin-top: -2rem;
+  }
+  header .hamburger {
+    margin-right: 10%;
   }
   .intro img.illustration-intro {
     margin-top: -50rem;
@@ -732,8 +739,11 @@ footer .social img:hover {
     scrollbar-width: none;
     -ms-overflow-style: none;
   }
+  .testimonial .testimonial-slider #test-box1 {
+    padding-left: 0;
+  }
   .testimonial .testimonial-slider .test-box {
-    min-width: 100%;
+    min-width: 97%;
   }
   .testimonial .testimonial-slider::-webkit-scrollbar {
     display: none;
@@ -778,15 +788,42 @@ footer .social img:hover {
   }
   footer {
     width: 100%;
+    height: 700px;
   }
   footer form {
-    margin-right: 2%;
+    margin-right: 55%;
+    width: 40%;
+  }
+  footer form input {
+    width: 220px;
   }
   footer form input.email {
     padding-left: 1rem;
   }
   footer form .get-started {
     margin-right: 10%;
+  }
+  footer .link-list1 {
+    margin-left: 5%;
+    margin-top: -14rem;
+  }
+  footer .link-list2 {
+    margin-left: 45%;
+  }
+  footer img.logo {
+    margin-left: 30%;
+  }
+  footer h4 {
+    margin-right: 20%;
+    margin-top: 15rem;
+  }
+  footer .social {
+    margin-top: -6rem;
+    margin-left: 17%;
+  }
+  footer .social img {
+    padding-right: 20px;
+    width: 25px;
   }
 }
 /*# sourceMappingURL=style.css.map */
