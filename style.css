@@ -774,6 +774,9 @@ footer .social img:hover {
   .circle-box .dot:active {
     background-color: #f25f3a;
   }
+  .circle-box a {
+    font-size: 0em;
+  }
   .bottom {
     width: 100%;
     margin-top: -6rem;
